@@ -13,7 +13,7 @@
     "default_title": "Artiin Extension",
     "default_icon": "icon.png"
   },
-  "permissions": ["storage"],
+  "permissions": ["contextMenus"],
   "options_page": "options.html",
   "background": {
     "service_worker": "background.js"

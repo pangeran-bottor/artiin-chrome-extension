@@ -1,1 +1,1 @@
-Artiin
+Artiin Chrome Extension

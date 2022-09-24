@@ -12,7 +12,7 @@ interface Definition {
 type FetchState = "start" | "loading" | "error" | "ready"
 
 const getData = async (word: string) => {
-  const resp = await fetch(`http://kateglo.com/api.php?format=json&phrase=${word}`)
+  const resp = await fetch(`http://kateglo.lostfocus.org/api.php?format=json&phrase=${word}`)
   const data = await resp.json()
   return data.kateglo.definition
 }

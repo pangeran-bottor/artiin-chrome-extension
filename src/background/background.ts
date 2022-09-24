@@ -5,7 +5,7 @@ chrome.runtime.onInstalled.addListener(() => {
 
   chrome.contextMenus.create({
     contexts: ['selection'],
-    title: 'Cari arti',
+    title: 'Artiin',
     id: 'artiinExtension',
   })
 
